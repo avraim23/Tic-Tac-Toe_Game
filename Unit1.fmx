@@ -1,0 +1,154 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 472
+  ClientWidth = 604
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 40.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Acme'
+    TextSettings.Font.Size = 24.000000000000000000
+    Text = 'It'#39's Your Turn , Player'
+    TabOrder = 0
+  end
+  object CurrentPlayerSymbolLabel: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 257.000000000000000000
+    Position.Y = 39.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    Text = 'CurrentPlayerSymbolLabel'
+    TabOrder = 1
+  end
+  object WinnerLabel: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 240.000000000000000000
+    Position.Y = 432.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Acme'
+    TextSettings.Font.Size = 24.000000000000000000
+    TabOrder = 2
+  end
+  object Button1: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 160.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button2: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 272.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 384.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 160.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button5: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 272.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 384.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 160.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 272.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 384.000000000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TextSettings.Font.Family = 'squeaky chalk sound'
+    TextSettings.Font.Size = 36.000000000000000000
+    OnClick = ButtonClick
+  end
+end
